@@ -3,7 +3,7 @@ import userImage from "../../../assets/images/1.png"
 
 const Card = () => {
     return (
-        <div className="w-80 h-fit bg-white p-4 rounded-lg">
+        <div className="w-80 h-fit bg-white p-4 rounded-lg mb-3">
             <div>
                 <div className="flex justify-between mb-3">
                     <div className="flex justify-center items-center">
