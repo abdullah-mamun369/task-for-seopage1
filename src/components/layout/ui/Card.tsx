@@ -3,7 +3,7 @@ import userImage from "../../../assets/images/1.png"
 
 const Card = () => {
     return (
-        <div className="w-80 h-fit bg-white p-4 rounded-lg mb-3">
+        <div className="w-[300px] h-fit bg-white p-4 rounded-lg mb-3">
             <div>
                 <div className="flex justify-between mb-3">
                     <div className="flex justify-center items-center">
@@ -16,12 +16,12 @@ const Card = () => {
                     </div>
                 </div>
                 <div className="flex justify-between mb-3">
-                    <div className="flex  items-center w-56">
+                    <div className="flex  items-center w-48">
                         <Layers3 className="shrink-0 mr-2 w-4 text-gray-700" />
                         <p className="truncate text-xs text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, in.</p>
                     </div>
                     <div className="flex  items-center">
-                        <SquareChartGantt className="shrink-0 mr-2 w-4 text-gray-700" />
+                        <SquareChartGantt className="shrink-0 mr-1 w-4 text-gray-700" />
                         <p className="text-xs text-gray-700 font-semibold">1/2</p>
                     </div>
                 </div>
@@ -32,15 +32,15 @@ const Card = () => {
 
                     <p className="text-xs text-gray-700 font-semibold">12+</p>
                     <div className="flex  items-center">
-                        <MessageCircleMore className="shrink-0 mr-1 w-4 text-gray-700" />
+                        <MessageCircleMore className="shrink-0  w-3 text-gray-700" />
                         <p className="text-xs text-gray-700 font-semibold">15</p>
                     </div>
                     <div className="flex  items-center">
-                        <Paperclip className="shrink-0 mr-1 w-4 text-gray-700" />
+                        <Paperclip className="shrink-0  w-3 text-gray-700" />
                         <p className="text-xs text-gray-700 font-semibold">25</p>
                     </div>
                     <div className="flex  items-center">
-                        <CalendarDays className="shrink-0 mr-1 w-4 text-gray-700" />
+                        <CalendarDays className="shrink-0  w-3 text-gray-700" />
                         <p className="text-xs text-gray-700 font-semibold">30-12-2024</p>
                     </div>
                 </div>
