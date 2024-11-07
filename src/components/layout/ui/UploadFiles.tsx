@@ -5,7 +5,7 @@ const UploadFiles = () => {
         <div>
             <Upload.Dragger
                 multiple
-                action={"www.google.com"}
+                action={"http://localhost:4000/upload"}
                 listType="picture"
 
             >
