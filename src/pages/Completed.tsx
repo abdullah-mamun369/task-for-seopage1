@@ -12,7 +12,7 @@ const Completed = () => {
                 </div>
                 <p className="font-medium text-gray-700">0</p>
             </div>
-            <div className="max-h-[810px] overflow-auto overflow-x-hidden">
+            <div className="2xl:max-h-[810px] xl:max-h-[500px] lg:max-h-[1200px] md:max-h-[900px] max-h-[800px] overflow-auto overflow-x-hidden">
                 <Card />
                 <Card />
                 <Card />
