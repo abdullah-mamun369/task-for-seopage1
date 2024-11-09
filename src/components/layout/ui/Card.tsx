@@ -16,7 +16,7 @@ const Card = () => {
 
 
     useEffect(() => {
-        fetch("http://localhost:4000/users")
+        fetch("https://final-server-seopage1.onrender.com/users")
             .then((res) => res.json())
             .then((data) => setattachmentData(data))
     }, [])
@@ -24,7 +24,7 @@ const Card = () => {
 
 
     useEffect(() => {
-        fetch("http://localhost:4000/todos")
+        fetch("https://final-server-seopage1.onrender.com/todos")
             .then((res) => res.json())
             .then((data) => setTodos(data))
     }, [])
@@ -42,7 +42,7 @@ const Card = () => {
     const handleSubmit = () => {
         async function fetchData() {
             try {
-                const response = await fetch('http://localhost:4000/users');
+                const response = await fetch('https://final-server-seopage1.onrender.com/users');
                 const data = await response.json();
                 setattachmentData(data)
             } catch (error) {

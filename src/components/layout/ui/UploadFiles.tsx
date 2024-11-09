@@ -5,7 +5,7 @@ const UploadFiles = () => {
         <div>
             <Upload.Dragger
                 multiple
-                action={"http://localhost:4000/upload"}
+                action={"https://final-server-seopage1.onrender.com/upload"}
                 listType="picture"
 
             >
