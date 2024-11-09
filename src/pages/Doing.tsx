@@ -6,8 +6,8 @@ const Doing = () => {
         <div className=" bg-gray-200 p-2 ">
             <div className="flex justify-between mb-2 p-2">
                 <div className="flex">
-                    <Box className="shrink-0 mr-2 w-6 text-gray-200 fill-red-600" />
-                    <h2 className="font-medium text-gray-700">Incomplete</h2>
+                    <Box className="shrink-0 mr-2 w-6 text-gray-200 fill-yellow-500" />
+                    <h2 className="font-medium text-gray-700">Doing</h2>
                 </div>
                 <p className="font-medium text-gray-700">0</p>
             </div>
